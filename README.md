@@ -1,5 +1,7 @@
 # Flutter Weather App
 
+https://github.com/user-attachments/assets/bfd2cc2b-cb5b-4965-8d2f-357bfd32943f
+
 A simple weather app built with Flutter using the OpenWeather API.
 
 ## Setup
