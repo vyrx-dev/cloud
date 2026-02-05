@@ -166,8 +166,7 @@ class _WeatherPageState extends State<WeatherPage> {
               ),
 
               // weather content
-              SizedBox(
-                height: MediaQuery.of(context).size.height - 200,
+              Expanded(
                 child: Center(
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
