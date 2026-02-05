@@ -1,16 +1,34 @@
-# cloud
+# Flutter Weather App
 
-A new Flutter project.
+A simple weather app built with Flutter using the OpenWeather API.
 
-## Getting Started
+## Setup
 
-This project is a starting point for a Flutter application.
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd <repository-name>
+   ```
 
-A few resources to get you started if this is your first Flutter project:
+2. Get a free API key from [OpenWeather](https://openweathermap.org/)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. Create a `.env` file in the root directory and add your API key:
+   ```
+   OPENWEATHER_API_KEY=your_api_key_here
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+4. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+
+5. Run the app:
+   ```bash
+   flutter run
+   ```
+
+**Note:** The app requires location permissions. Make sure to grant them when prompted on your device.
+
+## Tested On
+- iOS
+- Android
